@@ -1,0 +1,21 @@
+class Manager{
+  String? name;
+
+  void sayHello(String name){
+    print('Hello $name , my name this ${this.name}');
+  }
+}
+
+class Anakbuah extends Manager{
+
+}
+
+void main(){
+  var manager = Manager();
+  manager.name = 'dicky';
+  manager.sayHello('santoso');
+
+  var Ab = Anakbuah();
+  Ab.name = 'ferdi';
+  Ab.sayHello('reo');
+}
